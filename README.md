@@ -19,7 +19,8 @@ The dashboard includes:
 ✅ **Data Table**: Displays user data with **input validation**  
 ✅ **Responsive Design**: Mobile-friendly using CSS media queries  
 
-## 📸 Dashboard Screenshot
+## 📸 Photo
 Here’s a preview of the final dashboard:
 
-![Dashboard Preview](assets/dashboard_screenshot.png)
+![Dashboard Preview](https://your-image-url.com/dashboard.png)
+
