@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <button class="menu-toggle">☰</button>
+        <h2 class="logo">Blubox</h2>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="icons">
+            <span>🔔</span>
+            <span>👤</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="#">📊 <span>Dashboard</span></a>
+            <a href="#">🎨 <span>UI Elements</span></a>
+            <a href="#">📦 <span>Components</span></a>
+            <a href="#">📝 <span>Forms Stuff</span></a>
+            <a href="#">📋 <span>Data Table</span></a>
+            <a href="#">⭐ <span>Icons</span></a>
+            <a href="#">📄 <span>Sample Page</span></a>
+            <a href="#">⚙️ <span>Extra</span></a>
+
+            <button class="add-project-btn">➕ Add Project</button>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h2>Dashboard</h2>
+            <div class="dashboard-cards">
+                <div class="card purple">
+                    <h3>Stock Total</h3>
+                    <h2>$150000</h2>
+                    <p>Increased by 60%</p>
+                </div>
+                <div class="card blue">
+                    <h3>Total Profit</h3>
+                    <h2>$25000</h2>
+                    <p>Increased by 30%</p>
+                </div>
+                <div class="card orange">
+                    <h3>Unique Visitors</h3>
+                    <h2>250000</h2>
+                    <p>Increased by 80%</p>
+                </div>
+            </div>
+            <canvas id="myChart" width="400" height="200"></canvas>
+            <h3>Standard Table Design</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>User Type</th>
+                        <th>Joined</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mike Brand</td>
+                        <td>mikebrand@email.com</td>
+                        <td>Admin</td>
+                        <td>25 Apr, 2018</td>
+                        <td><span class="status pending">PENDING</span></td>
+                    </tr>
+                    <tr>
+                        <td>Andrew Strauss</td>
+                        <td>andy@surmail.com</td>
+                        <td>Editor</td>
+                        <td>25 Apr, 2018</td>
+                        <td><span class="status approved">APPROVED</span></td>
+                    </tr>
+                    <tr>
+                        <td>Ross Kliperman</td>
+                        <td>rosskap@email.com</td>
+                        <td>Subscriber</td>
+                        <td>25 Apr, 2018</td>
+                        <td><span class="status approved">APPROVED</span></td>
+                    </tr>
+                    <tr>
+                        <td>Mike Husy</td>
+                        <td>mikehusy@email.com</td>
+                        <td>Admin</td>
+                        <td>25 Apr, 2018</td>
+                        <td><span class="status reject">REJECT</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <link rel = "stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+
+</body>
+</html> 
