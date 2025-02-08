@@ -22,5 +22,6 @@ The dashboard includes:
 ## 📸 Photo
 Here’s a preview of the final dashboard:
 
-![Dashboard Preview](https://your-image-url.com/dashboard.png)
+![Dashboard Preview](https://raw.githubusercontent.com/your-username/your-repo/main/images/dashboard.png)
+
 
