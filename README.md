@@ -18,6 +18,3 @@ The dashboard includes:
 ✅ **Graph Section**: A chart displaying sample data using Chart.js  
 ✅ **Data Table**: Displays user data with **input validation**  
 ✅ **Responsive Design**: Mobile-friendly using CSS media queries  
-
-## **Overall View**
-webdashboard.ccbp.tech
